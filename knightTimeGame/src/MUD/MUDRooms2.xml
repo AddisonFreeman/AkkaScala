@@ -1,0 +1,155 @@
+<map>
+  <room number="0" letter="A" name="Game Room">
+    <description>You suddenly sit up on the couch in your game room. Was I sleeping? Must have been, quite a long nap at that. You look over to your puzzle on the table, "*sigh* If only I could have a REAL adventure"... You notice a stray chess piece on the ground. </description>
+    <exit dir="N" destination="1"/>
+    <item name="Chess Piece" atkName="Throw" damage="1"/>
+  </room>
+  <room number="1" letter="B" name="Hallway">
+    <description>The hallway is dark and cold.</description>
+    <exit dir="W" destination="2"/>
+    <exit dir="N" destination="3"/>
+    <exit dir="E" destination="4"/>
+    <exit dir="S" destination="0"/>
+    <npc name="Teacher" health="20" description="Teacher: Oh my, oh dear, oh my, oh my. I've been wounded in the war. Please help revive me!">
+      <response ifcharClass="KNIGHT" say=""/>
+      <response ifcharClass="WIZARD" say=""/>
+    </npc>
+    <item name="Nothing" atkName="Collapse" damage="3"/>
+  </room>
+  <room number="2" letter="C" name="Statue">
+    <description>The Statue comes to life all of a sudden! It's a real Knight! </description>
+    <exit dir="E" destination="1"/>
+    <exit dir="W" destination="12"/>
+    <npc name="Knight" health="20" description="Why, who's that there...">
+      <response ifcharClass="KNIGHT" say=" Oh, you're a Page, aren't you? One of my very own kind. It's an honor to know you. I've been frozen in this statue for quite some time, I need a wizard to help me become human again. I suppose you can't help me..."/>
+      <response ifcharClass="WIZARD" say="Oh goodness, why... are you a wizard? Could you help me become human again, a terrible witch forced me into this form."/>
+      <response ifcharClass="JEDI" say="Oh goodness, why... are you a wizard? Could you help me become human again, a terrible witch forced me into this form. But.. you're so young, I guess you don't know magic yet..."/>
+    </npc>
+    <item name="Flower Pot" atkName="Smash" damage="5"/>
+  </room>
+  <room number="3" letter="C" name="Archive Room">
+    <description>
+	There's an atlas on the bookshelf there 
+		</description>
+    <exit dir="S" destination="1"/>
+    <item name="Atlas" atkName="Smack" damage="4"/>
+  </room>
+  <room number="4" letter="C" name="Kitchen">
+    <description>
+	The cook is preparing tonight's dinner, if you bother him I bet he'll offer you some food.
+		</description>
+    <exit dir="W" destination="1"/>
+    <exit dir="S" destination="5"/>
+    <npc name="Knight" health="20" description="Why, who's that there...">
+      <response ifcharClass="KNIGHT" say="Why hello there, could you do me a favor and bring me the porkchops from next door?"/>
+      <response ifcharClass="WIZARD" say="Why hello there, could you do me a favor and bring me the porkchops from next door?"/>
+      <response ifcharClass="JEDI" say="Why hello there, could you do me a favor and bring me the porkchops from next door?"/>
+    </npc>
+    <item name="Kitchen Knife" atkName="Slice" damage="6"/>
+  </room>
+  <room number="5" letter="D" name="Meatery">
+    <description>
+	The Butcher is cold and grimmacing. He probably won't give you what you want unless you bring him something, or unless you're a knight
+		</description>
+    <exit dir="N" destination="4"/>
+    <exit dir="S" destination="6"/>
+    <npc name="Butcher" health="20" description="Uhhh...">
+      <response ifcharClass="KNIGHT" say="Are you trining to become a knight? Why that's swell, you can take these porkchops if you'd like"/>
+      <response ifcharClass="WIZARD" say="Scram, unless you have something for me to marinate this steak with..."/>
+      <response ifcharClass="JEDI" say="Scram, unless you have something for me to marinate this steak with..."/>
+    </npc>
+    <item name="Skewer" atkName="Stab" damage="5"/>
+  </room>
+  <room number="6" letter="F" name="Outside of Castle">
+    <description>
+	Ahh, the outside world. Freedom at last!
+		</description>
+    <exit dir="N" destination="5"/>
+    <exit dir="E" destination="8"/>
+    <exit dir="S" destination="9"/>
+    <exit dir="W" destination="16"/>
+    <item name="Nothing" atkName="Stab" damage="5"/>
+  </room>
+  <room number="7" letter="G" name="Archery Range">
+    <description>
+	Let's shoot arrows!
+    </description>
+    <exit dir="S" destination="8"/>
+    <exit dir="E" destination="10"/>
+    <item name="Nothing" atkName="Stab" damage="5"/>
+  </room>
+  <room number="8" letter="G" name="Meadows">
+    <description>
+
+    </description>
+    <exit dir="W" destination="6"/>
+    <exit dir="N" destination="7"/>
+    <exit dir="E" destination="11"/>
+    <item name="Nothing" atkName="Stab" damage="5"/>
+  </room>
+  <room number="9" letter="G" name="Stables">
+    <description>
+
+    </description>
+    <exit dir="N" destination="8"/>
+    <item name="Nothing" atkName="Stab" damage="5"/>
+  </room>
+  <room number="10" letter="H" name="Jousting Field">
+    <description>
+
+    </description>
+    <exit dir="W" destination="7"/>
+    <exit dir="S" destination="11"/>
+    <item name="Nothing" atkName="Stab" damage="5"/>
+  </room>
+  <room number="11" letter="H" name="Valley of Truth">
+    <description>
+
+    </description>
+    <exit dir="W" destination="8"/>
+    <exit dir="N" destination="10"/>
+    <item name="First-Aid Kit" atkName="Stab" damage="5"/>
+  </room>
+  <room number="12" letter="Z" name="Nond's Secret Room">
+    <description>
+
+    </description>
+    <exit dir="E" destination="2"/>
+    <exit dir="S" destination="13"/>
+    <exit dir="W" destination="15"/>
+    <item name="Nothing" atkName="Stab" damage="5"/>
+  </room>
+
+  <room number="13" letter="Z" name="Nond's Secret Room">
+    <description>
+
+    </description>
+    <exit dir="N" destination="12"/>
+    <exit dir="W" destination="14"/>
+    <item name="Nothing" atkName="Stab" damage="5"/>
+  </room>
+  <room number="14" letter="Z" name="Nond's Secret Room">
+    <description>
+
+    </description>
+    <exit dir="E" destination="13"/>
+    <exit dir="N" destination="15"/>
+    <item name="Nothing" atkName="Stab" damage="5"/>
+  </room>
+  <room number="15" letter="Z" name="Nond's Secret Room">
+    <description>
+
+    </description>
+    <exit dir="S" destination="14"/>
+    <exit dir="E" destination="12"/>
+    <item name="Nothing" atkName="Stab" damage="5"/>
+  </room>
+  <room number="16" letter="Z" name="Nond's Secret Room">
+    <description>
+
+    </description>
+    <exit dir="E" destination="6"/>
+    <item name="Nothing" atkName="Stab" damage="5"/>
+  </room>
+</map>
+

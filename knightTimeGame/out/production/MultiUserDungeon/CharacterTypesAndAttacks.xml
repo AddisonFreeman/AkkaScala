@@ -1,0 +1,49 @@
+<characters>
+  <character name="Page" evolvesInto="Squire" evolutionaryLevel="1" charClass="KNIGHT">
+    <description>Pages are servants of Knights and Squires...</description>
+    <attack opts="1" name="punch" damage="10"/>
+  </character>
+  <character name="Squire" evolvesInto="Knight" evolutionaryLevel="2" charClass="KNIGHT">
+    <description>Squires are Knights' direct servants...</description>
+    <attack opts="1" name="sword strike" damage="20"/>
+  </character>
+  <character name="Knight" evolvesInto="Null" evolutionaryLevel="3" charClass="KNIGHT">
+    <description>Knights are boss</description>
+    <attack opts="1" name="Joust Stab" damage="40"/>
+  </character>
+
+  <character name="Young Sorcerer" evolvesInto="Mage" evolutionaryLevel="1" charClass="WIZARD">
+    <description>Just beginning to understand magic...</description>
+    <attack opts="1" name="cast water" damage="10"/>
+  </character>
+  <character name="Mage" evolvesInto="Wizard" evolutionaryLevel="2" charClass="WIZARD">
+    <description>Can cast spells with good efficiency, etc...</description>
+    <attack opts="1" name="cast fire" damage="20"/>
+  </character>
+  <character name="Wizard" evolvesInto="Warlock" evolutionaryLevel="3" charClass="WIZARD">
+    <description>Powerful wielding magic</description>
+    <attack opts="1" name="cast spirit" damage="30"/>
+  </character>
+  <character name="Warlock" evolvesInto="Null" evolutionaryLevel="4" charClass="WIZARD">
+    <description>Warlocks are super awesome</description>
+    <attack opts="1" name="cast plague" damage="45"/>
+  </character>
+
+  <character name="Padawan Learner" evolvesInto="Apprentice" evolutionaryLevel="1" charClass="JEDI">
+    <description>Force sensitive adolescent...</description>
+    <attack opts="1" name="force nudge" damage="5"/>
+  </character>
+  <character name="Apprentice" evolvesInto="Jedi Knight" evolutionaryLevel="2" charClass="JEDI">
+    <description>The Apprentice works under their respective Master</description>
+    <attack opts="1" name="lightsaber reflect" damage="15"/>
+  </character>
+  <character name="Jedi Knight" evolvesInto="Jedi Master" evolutionaryLevel="3" charClass="JEDI">
+    <description>Protect the republic!</description>
+    <attack opts="1" name="lightsaber strike" damage="40"/>
+  </character>
+  <character name="Jedi Master" evolvesInto="Null" evolutionaryLevel="4" charClass="JEDI">
+    <description>You are the law</description>
+    <attack opts="1" name="force storm" damage="50"/>
+  </character>
+</characters>
+

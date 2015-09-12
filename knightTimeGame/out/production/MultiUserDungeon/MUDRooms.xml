@@ -1,0 +1,184 @@
+<map>
+
+  <room number="0" letter="A" name="Game Room">
+    <description>You are sitting in your game room.</description>
+    <exit dir="N" destination="1"/>
+    <item name="Chess Piece" atkName="Throw" damage="1"/>
+  </room>
+
+  <room number="1" letter="B" name="Hallway">
+    <description>The hallway is dark and cold.</description>
+    <exit dir="W" destination="2"/>
+    <exit dir="N" destination="3"/>
+    <exit dir="E" destination="4"/>
+    <exit dir="S" destination="0"/>
+    <npc name="Teacher" health="20" description="Oh my, oh dear, oh my, oh my. I've been wounded in the war. Please help revive me!">
+      <attack opts="1" name="case hit" damage="10"/>
+    </npc>
+    <item name="Suit of Armor" atkName="Collapse" damage="3"/>
+  </room>
+
+  <room number="2" letter="C" name="Garden">
+    <description>Carrots grow in the garden</description>
+    <exit dir="E" destination="1"/>
+    <exit dir="W" destination="13"/>
+    <item name="Flower Pot" atkName="Smash" damage="5"/>
+  </room>
+  
+  <room number="3" letter="C" name="Archive Room">
+    <description>
+	The archive room
+		</description>
+    <exit dir="S" destination="1"/>
+    <item name="Atlas" atkName="Smack" damage="4"/>
+  </room>
+
+  <room number="4" letter="C" name="Kitchen">
+    <description>
+	Kitchen.
+		</description>
+    <exit dir="W" destination="1"/>
+    <exit dir="S" destination="5"/>
+    <item name="Kitchen Knife" atkName="Slice" damage="6"/>
+  </room>
+
+  <room number="5" letter="D" name="Meatery">
+    <description>
+	Meat.
+		</description>
+    <exit dir="N" destination="4"/>
+    <exit dir="S" destination="6"/>
+    <item name="Skewer" atkName="Stab" damage="5"/>
+  </room>
+
+  <room number="6" letter="E" name="Cellar">
+    <description>
+	Cellar door :o
+		</description>
+    <exit dir="N" destination="5"/>
+    <exit dir="S" destination="7"/>
+  </room>
+
+  <room number="7" letter="F" name="Outside of Castle">
+    <description>
+	Ahh, the outside world. Freedom at last!
+		</description>
+    <exit dir="E" destination="9"/>
+    <exit dir="S" destination="10"/>
+    <exit dir="W" destination="25"/>
+  </room>
+
+  <room number="8" letter="G" name="Archery Range">
+    <description>
+	Let's shoot arrows!
+		</description>
+    <exit dir="S" destination="9"/>
+    <exit dir="E" destination="11"/>
+  </room>
+
+  <room number="9" letter="G" name="Meadows">
+    <description>
+
+		</description>
+    <exit dir="W" destination="7"/>
+    <exit dir="N" destination="8"/>
+    <exit dir="E" destination="12"/>
+  </room>
+
+  <room number="10" letter="G" name="Stables">
+    <description>
+
+		</description>
+    <exit dir="W" destination="33"/>
+    <exit dir="N" destination="9"/>
+    <exit dir="E" destination="13"/>
+  </room>
+
+  <room number="11" letter="H" name="Jousting Field">
+    <description>
+
+		</description>
+    <exit dir="E" destination="8"/>
+    <exit dir="S" destination="12"/>
+  </room>
+
+  <room number="12" letter="H" name="Crossroads">
+    <description>
+
+		</description>
+    <exit dir="W" destination="9"/>
+    <exit dir="N" destination="11"/>
+    <exit dir="S" destination="13"/>
+    <exit dir="E" destination="14"/>
+  </room>
+
+  <room number="13" letter="H" name="Lake">
+    <description>
+
+		</description>
+    <exit dir="E" destination="10"/>
+    <exit dir="N" destination="12"/>
+  </room>
+
+  <room number="14" letter="I" name="the Forest">
+    <description>
+
+		</description>
+    <exit dir="W" destination="12"/>
+    <exit dir="E" destination="16"/>
+    <exit dir="S" destination="15"/>
+  </room>
+
+  <room number="15" letter="J" name="Sword in the Stone">
+    <description>
+		A majecstic looking sword is stick in a large boulder. It seems as if many people have attempted to pull it out of the stone. Could you be the only one to succeed, could you be a true heir of King Arthur? ONLY ONE WAY TO FIND OUT!
+		</description>
+    <exit dir="N" destination="14"/>
+    <exit dir="E" destination="19"/>
+  </room>
+
+  <room number="19" letter="K" name="an Old Hermit">
+    <description>
+
+		</description>
+    <exit dir="W" destination="14"/>
+    <exit dir="E" destination="20"/>
+  </room>
+
+  <room number="23" letter="O" name="Master Yoma">
+    <description>
+
+		</description>
+    <exit dir="S" destination="21"/>
+    <exit dir="E" destination="34"/>
+  </room>
+  <room number="24" letter="D" name="Outside of Castle">
+    <description>
+
+		</description>
+    <exit dir="E" destination="7"/>
+    <exit dir="S" destination="10"/>
+    <exit dir="W" destination="25"/>
+  </room>
+
+  <room number="32" letter="H" name="Dragon's Lair">
+    <description>
+
+		</description>
+    <exit dir="DW" destination="30"/>
+    <exit dir="D" destination="31"/>
+    <exit dir="U" destination="1000000000"/>
+  </room>
+
+  <room number="34" letter="Z" name="Nond's Secret Room">
+    <description>
+
+		</description>
+    <exit dir="E" destination="9"/>
+    <exit dir="S" destination="10"/>
+    <exit dir="W" destination="25"/>
+  </room>
+
+
+</map>
+

@@ -1,0 +1,5 @@
+package MUDGame
+
+class ItemClass {
+
+}

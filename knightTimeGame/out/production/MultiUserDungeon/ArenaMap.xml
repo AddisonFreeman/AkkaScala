@@ -1,0 +1,26 @@
+<map>
+  <room number="0" letter="A" name="Arena Lobby">
+    <description>Arena Lobby</description>
+    <exit dir="W" destination="1"/>
+    <exit dir="E" destination="2"/>
+    <item name="Nothing" atkName="nothing" damage="0"/>
+  </room>
+  <room number="1" letter="B" name="Room 1">
+    <description>Room 1 has a gun</description>
+    <exit dir="E" destination="0"/>
+    <npc name="Teacher" health="20" description="Oh my, oh dear, oh my, oh my. I've been wounded in the war. Please help revive me!">
+      <attack opts="1" name="case hit" damage="10"/>
+    </npc>
+    <item name="Gun" atkName="shoot gun" damage="20"/>
+  </room>
+  <room number="2" letter="B" name="Room 2">
+    <description>Room2 has a sword</description>
+    <exit dir="W" destination="0"/>
+    <item name="Sword" atkName="slash" damage="15"/>
+  </room>
+  <room number="3" letter="C" name="Arena">
+    <description>Get ready to fight</description>
+    <item name="Nothing" atkName="nothing" damage="0"/>
+  </room>
+</map>
+

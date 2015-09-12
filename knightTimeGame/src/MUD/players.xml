@@ -1,0 +1,52 @@
+<element>
+    <client name="froggy" pass="frog" curRoom="3" usrLvl="0">
+        <character health="100" evolutionaryLevel="1" description="Just beginning to understand magic..."
+                   name="Young Sorcerer" evolvesInto="Mage" charClass="WIZARD"></character>
+    </client>
+    <client name="Inaius" pass="haha" curRoom="1" usrLvl="0">
+        <character health="100" evolutionaryLevel="1" description="Force sensitive adolescent..." name="Jedi Initiate"
+                   evolvesInto="Padawan Learner" charClass="JEDI"></character>
+    </client>
+    <client name="Inaius" pass="haha" curRoom="8" usrLvl="0">
+        <character health="100" evolutionaryLevel="1" description="Force sensitive adolescent..." name="Jedi Initiate"
+                   evolvesInto="Padawan Learner" charClass="JEDI"></character>
+    </client>
+    <client name="Addiosn" pass="a" curRoom="1" usrLvl="0">
+        <character health="100" evolutionaryLevel="1" description="Just beginning to understand magic..."
+                   name="Young Sorcerer" evolvesInto="Mage" charClass="WIZARD"></character>
+    </client>
+    <client name="Addison" pass="password" curRoom="13" usrLvl="0">
+        <character health="100" evolutionaryLevel="1" description="Just beginning to understand magic..."
+                   name="Young Sorcerer" evolvesInto="Mage" charClass="WIZARD"></character>
+    </client>
+    <client name="    " pass=" " curRoom="10" usrLvl="0">
+        <character health="100" evolutionaryLevel="1" description="Force sensitive adolescent..." name="Padawan Learner"
+                   evolvesInto="Apprentice" charClass="JEDI"></character>
+    </client>
+    <client name="Aaron" pass="thads" curRoom="0" usrLvl="0">
+        <character health="100" evolutionaryLevel="1" description="Just beginning to understand magic..."
+                   name="Young Sorcerer" evolvesInto="Mage" charClass="WIZARD"></character>
+    </client>
+    <client name="asdfa" pass="asdfasd" curRoom="10" usrLvl="0">
+        <character health="100" evolutionaryLevel="1" description="Pages are servants of Knights and Squires..."
+                   name="Page" evolvesInto="Squire" charClass="KNIGHT"></character>
+    </client>
+    <client name="Addison" pass="password" curRoom="12" usrLvl="0">
+        <character health="100" evolutionaryLevel="1" description="Just beginning to understand magic..."
+                   name="Young Sorcerer" evolvesInto="Mage" charClass="WIZARD"></character>
+    </client>
+    <client name="Addison" pass="password" curRoom="1" usrLvl="0">
+        <character health="100" evolutionaryLevel="1" description="Just beginning to understand magic..."
+                   name="Young Sorcerer" evolvesInto="Mage" charClass="WIZARD"></character>
+    </client>
+    <client name="Addison" pass="password" curRoom="1" usrLvl="0">
+        <character health="100" evolutionaryLevel="1" description="Pages are servants of Knights and Squires..."
+                   name="Page" evolvesInto="Squire" charClass="KNIGHT"></character>
+    </client>
+    <client name="dflkajdf" pass="sdfaf" curRoom="1" usrLvl="0">
+        <character health="100" evolutionaryLevel="1" description="Just beginning to understand magic..."
+                   name="Young Sorcerer" evolvesInto="Mage" charClass="WIZARD">
+            <attacks damage="10" attkName="cast water" attkOpts="1"></attacks>
+        </character>
+    </client>
+</element>
